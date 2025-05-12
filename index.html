@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <h1>Amazon Fee Calculator</h1>
+
+         <div class="form-group">
+        <h2>Selling Price (₹)</h2>
+        <input type="number" id="price" placeholder="e.g., 1000">
+        </div>
+
+            <div class="form-group">
+        <h2>Cost Price (₹)</h2>
+        <input type="number" id="cost" placeholder="e.g., 600">
+        </div>
+        
+        <div class="form-group">
+        <h2>Product Weight (grams)</h2>
+        <input type="number" id="weight" placeholder="e.g., 400">
+        </div>
+
+            <div class="form-group">
+        <h2>Category</h2>
+        <select id="category" id>
+            <option value="default">--Select--</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Apparel">Apparel</option>
+            <option value="Consumables">Consumables</option>
+            <option value="Books">Books</option>
+        </select>
+            </div>
+             <div class="calculator">
+        <button class="btn" onclick="calculateFees()">Calculate</button>
+        </div>
+
+        <div class="result"> 
+
+            <div class="result-box">
+                <div class="result-lines"><span>Referral Fees:</span> <span id="referralFee">₹0</span></div>
+                <div class="result-lines"><span>FBA Fees:</span> <span id="fbaFee">₹0</span></div>
+                <div class="result-lines"><span>Profits:</span> <span id="profit">₹0</span></div>
+            </div>
+        </div>
+    
+    </div>
+<script src="index.js"></script>
+</body>
+</html>

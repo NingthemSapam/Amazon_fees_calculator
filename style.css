@@ -1,0 +1,98 @@
+body{
+        font-family: 'Segoe UI', sans-serif;
+        background-color: grey;
+}
+
+
+
+.main{
+    width: 400px;
+    height: 600px;
+    background-image: linear-gradient(#FF9900,#000000);
+    margin: auto;
+    margin-top: 2%;
+   
+    padding: 10px;
+    border-radius: 10px;
+   
+    
+}
+
+h1{
+   
+    text-align: center;
+    color: rgb(62, 48, 207);
+}
+
+h2{
+    font-size: large;
+}
+
+.form-group{
+    text-align: center;
+ 
+    
+}
+
+.form-group h2{
+    text-align: left;
+    padding-left: 50px;
+}
+
+input{
+    width: 300px;
+    height: 25px;
+    border-radius:5px;
+    border: 0;
+    
+}
+
+select{
+     width: 300px;
+    height: 25px;
+    border-radius:5px;
+    border: 0;
+}
+
+.btn{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    align-items:center;
+    cursor: pointer;
+    border:0;
+    background-color: #8de7ea;
+    font-weight: bold;
+    color: rgb(27, 26, 26);
+    
+    
+}
+
+.calculator{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.btn:hover{
+    background-color: #73AD21;
+    
+}
+
+.result-box{
+    width: 400px;
+    height: 100px;
+    background-color: #9ea7a4;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+}
+
+.result-lines{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    font-size: larger;
+    font-weight: bold;
+}
